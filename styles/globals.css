@@ -1,3 +1,11 @@
+:root{
+  --background-color: rgb(40, 51, 71);
+  --navbar-main-color: rgb(33, 35, 44);
+  --navbar-secondary-color: rgb(22, 22, 26);
+  --navbar-text-color: lightsteelblue;
+  --title-text-color: rgb(25, 18, 71);
+}
+
 html,
 body {
   padding: 0;
@@ -22,4 +30,23 @@ button:focus{
 
 * {
   box-sizing: border-box;
+}
+
+.hcenter{
+  display:flex;
+  justify-content: center;
+}
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.full-height{
+  height:100%
+}
+
+.container-large{
+  width: 90%;
+  margin: 0 auto;
 }

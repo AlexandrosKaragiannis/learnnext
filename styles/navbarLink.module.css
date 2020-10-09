@@ -1,0 +1,17 @@
+.navbar-link{
+    font-size: 1.2em;
+    display: block;
+    border-right: 1px solid gray;
+    padding: 0.7em 3em 0.3em 3em;
+    height: 100%;
+}
+
+
+.navbar-link:hover{
+    background-color: var(--navbar-secondary-color);
+}
+
+.navbar-last{
+    margin-left:auto;
+    border-right: none;
+}
