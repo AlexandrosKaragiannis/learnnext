@@ -4,30 +4,31 @@ import NavbarLink from './navbarLink';
 export default function Navbar() {
     return (
         <nav className={styles.navbar}>
-            <NavbarLink>
+            <NavbarLink href="/">
                 <img className={styles.logo} src="logo.png" />
                 NoLedge
             </NavbarLink>
-            <NavbarLink>
+            <NavbarLink href="/company">
                 Company
             </NavbarLink>
-            <NavbarLink>
+            <NavbarLink href="/products">
                 Products
             </NavbarLink>
-            <NavbarLink>
+            <NavbarLink href="/solutions">
                 Solutions
             </NavbarLink>
-            <NavbarLink>
+            <NavbarLink href="/services">
                 Services
             </NavbarLink>
-            <NavbarLink>
+            <NavbarLink href="/career">
                 Career
             </NavbarLink>
-            <NavbarLink>
+            <NavbarLink href="/communication">
                 Communication
             </NavbarLink>
-            <NavbarLink last={true}>
-                Login<i className="fas fa-door-open"></i>
+            <NavbarLink last={true} href="signin">
+                Sign In
+                <i className="fas fa-door-open"></i>
             </NavbarLink>
         </nav>
     );

@@ -1,0 +1,19 @@
+.body {
+    min-height: 100vh;
+    display: flex;
+    background-color: var(--background-color);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    width: 100%;
+    height: 30px;
+    color: white;
+    border-top: 2px solid var(--navbar-secondary-color);
+    background-color: var(--navbar-main-color);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
